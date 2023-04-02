@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: orchid;
+    padding: 36px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: black;
+}
+
+nav a {
+    color: black;
+}
+
+main {
+    padding: 48px;
+}
+
+.card {
+    margin: 48px 0px;
+    padding: 24px;
+    border: 1px solid orchid;
+}
+
+.card img {
+    width: 45%;
+}
+
+#image_container  {
+    float: left;
+    padding-right: 24px;
+    width: 300px;
+}
+
+footer{
+    background-color: orchid;
+    padding: 20px;
+    text-align: center;
+}
+
