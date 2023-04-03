@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 20;
+    font-size: medium;
+    font-style: normal;
+    
+}
+
+
+.wiki_image {
+    margin: 12px;
+    border: 2px solid gray;
+    width: 250px;
+    padding: 4px;
+    background-color: lightgrey;
+    
+}
+.wiki_image img{
+    width: 100%;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
