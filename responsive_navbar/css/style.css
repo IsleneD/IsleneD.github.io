@@ -4,6 +4,8 @@ body {
 
 nav{
     background-color: orange;
+    position: sticky;
+    top: 0px;
      
 }
 
@@ -63,7 +65,31 @@ li a {
     top: 100%;
 }
 
+.side_by_side {
+   display: flex;
+   border: 2px solid;
+   background-color:gray;
+}
+
+.img_container {
+    display: flex;
+    border: 2px solid;
+    text-align: center;
+
+}
+
+div {
+    text-align: center;
+    border: 2px solid;
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
+    #mobile
     ul {
         flex-direction: column;
     }
