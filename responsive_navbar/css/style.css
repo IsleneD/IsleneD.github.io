@@ -77,6 +77,7 @@ div {
     text-align: center;
     border: 2px solid;
     padding: 2px;
+    background-color: antiquewhite;
 }
 .clippers {
   border: 2px solid;
@@ -90,6 +91,7 @@ div {
 
 .side_by_side_image .image_container {
     width: 200px;
+    margin:auto 
 
 }
 
@@ -101,16 +103,9 @@ div {
  .side_by_side_image {
     display: flex;
     justify-content: center;
+ }
+ 
 
-
-}
-.side_by_side_image .image {
-    width: 200px
-}
-
-.image img {
-    width: 100%
-}
 .footer_index {
     text-align: center;
     border: 2px solid black;
