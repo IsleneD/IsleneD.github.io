@@ -34,9 +34,6 @@ li a {
  #logo {
      margin-right: auto;
      
-
-    
-
 }
 
 .dropdown_container {
@@ -65,10 +62,8 @@ li a {
     top: 100%;
 }
 
-.side_by_side {
+.side_by_side_image {
    display: flex;
-   border: 2px solid;
-   background-color:gray;
 }
 
 .img_container {
@@ -81,8 +76,46 @@ li a {
 div {
     text-align: center;
     border: 2px solid;
-    background-color: antiquewhite;
     padding: 2px;
+}
+.clippers {
+  border: 2px solid;
+  background-color: white;
+
+}
+.side_by_side_image {
+    display: flex;
+    justify-content: center;
+}
+
+.side_by_side_image .image_container {
+    width: 200px;
+
+}
+
+.image_container img {
+    width: 100%;
+    background-color: white;
+}
+
+ .side_by_side_image {
+    display: flex;
+    justify-content: center;
+
+
+}
+.side_by_side_image .image {
+    width: 200px
+}
+
+.image img {
+    width: 100%
+}
+.footer_index {
+    text-align: center;
+    border: 2px solid black;
+    background-color: bisque;
+    
 }
 
 
