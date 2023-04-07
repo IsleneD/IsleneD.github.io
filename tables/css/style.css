@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+thead tr {
+    background-color: green;
+}
+
+    
+ tbody tr:nth-child(even) {
+        background-color: lightgray;
+}
