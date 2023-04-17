@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Form Inputs| Exercise</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sign up for art classes!</h1>
+        <form>
+            <fieldset>
+                <p>What is your name?</p>
+                <div>
+                    <label for="first_name_id">First name:</label>
+                    <input type="text" id="first_name_Id" name="first_name">
+                </div>
+                <div>
+                    <label for="middle_name_id">Middle name:</label>
+                    <input type="text" id="middle_name_Id" name="middle_name">
+                </div>
+                <div>
+                    <label for="last_name_id">Last name:</label>
+                    <input type="text" id="last_name_Id" name="last_name">
+                </div>
+                <div>
+                    <label for="email_address_id">Email Address:</label>
+                    <input type="text" id="email_address_Id" name="email_address">
+                </div>
+                <br>
+                <p>What is your reason for signing up?</p>
+                <div>
+                    <label for="code_feelings_id"></label>
+                    <textarea
+                        id="code_feelings_id"
+                        name="code_feelings"
+                        rows="5"
+                        cols="40"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <p>What is your style?</p>
+                <div>
+                    <input type="radio" id="photorealism_checkbox" name="style" value="photorealism">
+                    <label for="photorealism_radio">Photorealism</label>
+                </div>
+                <div>
+                    <input type="radio" id="abstract_checkbox" name="style" value="abstract">
+                    <label for="abstract_radio">Abstract</label>
+                </div>
+                <div>
+                    <input type="radio" id="pop_art_checkbox" name="style" value="pop_art">
+                    <label for="pop_art_radio">Pop Art</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div>
+                    <label for="learning_type_id">
+                        What is your level of experience with Art?
+                    </label>
+                    <select id="learning_type_id" name="learning_type">
+                        <option value="beginner">Beginner</option>
+                        <option value="advanced_beginner">Advanced beginner</option>
+                        <option value="competent">Competent</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <p>Once your form is complete please submit.</p>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+    </body>
+</html>
