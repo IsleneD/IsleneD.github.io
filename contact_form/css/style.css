@@ -1,0 +1,39 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+    ".header_area."
+    ".main_area.";
+}
+
+header {
+    grid-area: header_area;
+}
+main {
+    grid-area: main_area;
+}
+
+form {
+    border: 3px solid;
+    padding: 35px;
+    background-image: url(../images/background\ image.jpg);
+    background-size:150px;
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, rgb(226, 238, 242), cyan);
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 45px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+h1 {
+    text-align: center;
+}
