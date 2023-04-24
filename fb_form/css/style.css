@@ -8,7 +8,7 @@ body {
 }
 form {
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     border-radius: 12px;
     box-shadow: 0px 0px 3px lightgray;
     background-color: white;
@@ -25,7 +25,7 @@ h2 {
 }
 
 .image {
-    padding: 8px;
+    padding: 2px;
 
 }
 .text {
@@ -36,7 +36,7 @@ input[type=text] {
     border-radius: 4px;
     padding: 10px;
     justify-content: center;
-    margin: 10px;
+    margin: 8px;
     flex: 1;
     
 }
@@ -45,8 +45,8 @@ input[type=text] {
 #mobile_email_id,
 #new_password_id {
     flex: 1;
-    margin: 1px;
-    padding: 12px;
+    margin: 8px;
+    padding: 10px;
     border-radius: 4px;
     border-color: lightgray;
     border: 2px solid lightgray;
@@ -56,30 +56,38 @@ input[type=text] {
 .birthday {
     display: flex;
     width: 90%;
-    margin: 10px;
+    
+    
 }
 #month_id {
-    border: 2px solid lightgray;
-    margin: 10px;
-    padding: 9px;
+    border:2px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+    margin: 8px;
+    flex: 1;
     width: 100%;
-    border-radius:  4px;
+    
     
 }
 #day_id {
-    border: 2px solid lightgray;
-    margin: 10px;
-    padding: 9px;
+    border:2px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+    margin: 8px;
+    flex: 1;
     width: 100%;
-    border-radius:  4px; ;
       
 }
 #year_id {
-    border: 2px solid lightgray;
-    margin: 10px;
-    padding: 9px;
+    border:2px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+    margin: 8px;
+    flex: 1;
     width: 100%;
-    border-radius:  4px; ;
 }
 
 .gender {
@@ -87,13 +95,18 @@ input[type=text] {
 }
 .gender_type {
     border: 2px solid lightgray;
-    margin: 10px;
+    margin: 8px;
     padding: 9px;
     width: 100%;
     border-radius:  4px; ;
 }
+h3 {
+    margin: 4px;
+    font-size: 15px;
+}
 p {
     text-align: center;
+    margin: 4px;
 }
 input[type=submit] {
     background: rgb(20, 211, 20);
@@ -103,6 +116,7 @@ input[type=submit] {
     padding: 8px;
     text-align: center;
     width: 200px;
+    font-size: 20px;
     
 }
 .sign {
@@ -128,7 +142,23 @@ input[type=submit] {
     background-color: lightcoral
 
 }
+#mobile_email_id:focus-visible {
+    outline: 0;
+}
 
+#mobile_email_id:invalid {
+    background-color: lightcoral;
+}
+
+#new_password_id:focus-visible {
+    outline: 0;
+}
+#new_password_id:invalid {
+    background-color: lightcoral;
+}
+input:not(:focus):not(:placeholder-shown):invalid {
+    
+ }
 
 
 
