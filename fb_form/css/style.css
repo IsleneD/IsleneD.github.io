@@ -100,13 +100,35 @@ input[type=submit] {
     color: white;
     border: 0px;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
-    margin: 3px;
-    flex: 1;
+    width: 200px;
     
 }
 .sign {
     justify-content: center;
+    display: flex;
 }
+
+#first_name_id:focus-visible {
+    outline: 0;
+
+    
+}
+#first_name_id:invalid {
+    background-color: lightcoral
+
+}
+#last_name_id:focus-visible {
+    outline: 0;
+
+    
+}
+#last_name_id:invalid {
+    background-color: lightcoral
+
+}
+
+
+
 
