@@ -65,7 +65,7 @@ input[type=text] {
     padding: 10px;
     justify-content: center;
     margin: 8px;
-    width: 100%;
+    flex: 1;
     
     
 }
@@ -75,7 +75,8 @@ input[type=text] {
     padding: 10px;
     justify-content: center;
     margin: 8px;
-    width: 100%;
+    flex: 1;
+    
       
 }
 #year_id {
@@ -84,7 +85,8 @@ input[type=text] {
     padding: 10px;
     justify-content: center;
     margin: 8px;
-    width: 100%;
+    flex: 1;
+    
 }
 
 .gender {
@@ -153,9 +155,7 @@ input[type=submit] {
 #new_password_id:invalid {
     background-color: lightcoral;
 }
-input:not(:focus):not(:placeholder-shown):invalid {
-    
- }
+
 
 
 
