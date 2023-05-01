@@ -1,0 +1,193 @@
+#hero {
+    background-image: url("../images/backgroundLarge.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+nav {
+    padding: 24px 36px;
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav  img {
+    width: 60px;  
+ }
+
+ nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    font-size: 13px;
+
+}
+
+
+
+
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#hero_content img {
+    width: 300px;
+    margin-top: 50px;
+}
+
+#hero_content p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=email] {
+    background-color: rgba(48, 47, 47, 0.987);
+    padding: 4px 30px;
+    margin-left: 100px;
+    
+
+}
+input[type=submit] {
+    background:rgb(25, 93, 239);
+    border: 0px;
+    border-radius: 3px;
+    padding: 4px 20px;
+    cursor: pointer;
+    margin-left: 304px;
+    margin-top: px;
+    margin-bottom: 25px;
+    
+}
+
+.small_link {
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+#footer_center {
+    margin: 0px 24px;
+    flex: 1;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    padding:12px 36px;
+    margin-top: 60px;
+    
+}
+#footer_image img {
+    width: 300px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+
+
+#cards_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 24px;
+    width: 1100px;
+    margin:0px;
+   
+   
+}
+
+#cards_section a {
+     display: block;
+}
+
+#cards_container div {
+    padding-left: 24px;
+}
+
+#wakanda_forever {
+    background-image: url("../images/wakandaForever.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#star_wars {
+    background-image: url("../images/andor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#turning_red {
+    background-image: url("../images/turningRed.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#fire_of_love {
+    background-image: url("../images/fireOfLove.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#encanto {
+    background-image: url("../images/encanto.jpg");
+    background-size: contain;
+    background-repeat:no-repeat
+}
+
+#zootopia {
+    background-image: url("../images/zootopiaPlus.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 480px) {
+   
+   
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+    #card_section {
+        padding: 0px 24px;
+    }
+    #cards_section p {
+        width: 100%;
+
+    }
+    #cards_container {
+        grid-template-columns:1fr;
+        width: 90px;
+        
+       
+    }
+
+   
+    
+}
