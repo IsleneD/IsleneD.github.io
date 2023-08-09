@@ -1,4 +1,4 @@
-/* Google Font API imports - found at https://fonts.google.com/ *;
+/* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
 
@@ -192,7 +192,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../images/field.jpg);
+    background-image: url(../images/foxtail\ home.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
